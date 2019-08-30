@@ -1,0 +1,11 @@
+<p>Usuario</p>
+<input type="text" [(ngModel)]="">
+<p>Contraseña</p>
+<input type="text" [(ngModel)]="usuario.clave">
+
+<button (click)=Añadir()>Añadir</button>
+
+<div *ngFor>
+  <p>{{usuario.nombre}}</p>
+  <p>{{usuario.clave}}</p>
+</div>

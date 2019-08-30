@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { UsuarioComponent } from './componentes/usuario/usuario.component';
+import { ListadoDeUsuariosComponent } from './componentes/listado-de-usuarios/listado-de-usuarios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BienvenidoComponent,
-    LoginComponent
+    LoginComponent,
+    UsuarioComponent,
+    ListadoDeUsuariosComponent
   ],
   imports: [
     BrowserModule,

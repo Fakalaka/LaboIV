@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class LoginComponent implements OnInit {
 
   public usuario: Usuario;
-  public ingresado: Boolean;
+  public ingresado: boolean;
 
   constructor() {
     this.usuario = new Usuario();
